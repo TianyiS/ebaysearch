@@ -70,9 +70,7 @@ class App extends Component {
             />
           </div>
 
-          <div className={"rightSidebar"}>
-            <p>you may like...</p>
-          </div>
+          
 
           <div className={"mainBar"} >
             <SelectedFilters style={{backgroundColor: '#afafaf'}}/>
