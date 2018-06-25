@@ -59,18 +59,16 @@ class App extends Component {
               dataField="semanticScore"
               title="Filter by semanticScore"
               range={{
-                start: 0,
-                end: 20
+                start: 7,
+                end: 13
               }}
               rangeLabels={{
-                start: "0",
-                end: "20"
+                start: "7",
+                end: "13"
               }}
               interval={1}
             />
           </div>
-
-          
 
           <div className={"mainBar"} >
             <SelectedFilters style={{backgroundColor: '#afafaf'}}/>
